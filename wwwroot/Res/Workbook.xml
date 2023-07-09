@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?><?mso-application progid="Excel.Sheet"?><Workbook xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:x2="urn:schemas-microsoft-com:office:excel2" xmlns:html="http://www.w3.org/TR/REC-html40" xmlns:dt="uuid:C2F41010-65B3-11d1-A29F-00AA00C14882">
+ <x:ExcelWorkbook>
+  <x:ActiveSheet>1</x:ActiveSheet>
+ </x:ExcelWorkbook>
+ <o:DocumentProperties>
+  <o:Author>Alejandro Munilla</o:Author>
+  <o:Created>2011-01-30T21:22:15Z</o:Created>
+  <o:LastSaved>2023-02-15T13:47:54Z</o:LastSaved>
+  <o:Company>Kardex AG</o:Company>
+ </o:DocumentProperties>
+ <o:CustomDocumentProperties>
+  <o:ContentTypeId>0x010100D325B51C5BA7A2419E4C705C2B06E0CF</o:ContentTypeId>
+  <o:AuthorIds_UIVersion_512>6</o:AuthorIds_UIVersion_512>
+  <o:Order dt:dt="float">119300</o:Order>
+  <o:xd_Signature dt:dt="boolean">False</o:xd_Signature>
+  <o:xd_ProgID />
+  <o:ComplianceAssetId />
+  <o:TemplateUrl />
+ </o:CustomDocumentProperties>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <ss:Alignment ss:Vertical="Center" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S38">
+   <ss:Alignment ss:Vertical="Center" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S39">
+   <ss:Alignment ss:Vertical="Center" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="10" />
+  </Style>
+  <Style ss:ID="S40">
+   <ss:Alignment ss:Vertical="Center" />
+   <ss:Font ss:Color="#000000" ss:FontName="Calibri" ss:Size="10" />
+   <ss:Interior ss:Color="#FF0000" ss:Pattern="Solid" />
+  </Style>
+  <Style ss:ID="S41">
+   <ss:Alignment />
+   <ss:Font ss:Bold="1" ss:Color="#0000FF" ss:FontName="Arial" ss:Size="18" ss:Italic="1" />
+   <ss:NumberFormat />
+   <ss:Protection ss:Protected="1" x:HideFormula="0" />
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Dictionary">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.75" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="18" ss:ExpandedColumnCount="3" ss:StyleID="S38">
+   <Column ss:Index="1" ss:StyleID="S39" ss:AutoFitWidth="0" ss:Width="90.75" />
+   <Column ss:Index="2" ss:StyleID="S38" ss:AutoFitWidth="0" ss:Width="379.5" />
+   <Column ss:Index="3" ss:StyleID="S38" ss:AutoFitWidth="0" ss:Width="351.75" />
+   <Row ss:Index="1">
+    <Cell><Data ss:Type="String">Key</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">en</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">es</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="2" ss:StyleID="S39">
+    <Cell><Data ss:Type="String">Home</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Home</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Inicio</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="3" ss:StyleID="S39">
+    <Cell><Data ss:Type="String">Mining</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Mining</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Minería</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="4">
+    <Cell><Data ss:Type="String">Welcome</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Welcome</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Bienvenido</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="5" ss:StyleID="S39">
+    <Cell><Data ss:Type="String">Contact</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Contact</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Contacto</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="6">
+    <Cell><Data ss:Type="String">Home1</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Extensive experience in both Mining and IT</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Experiencia extensa tanto en IT como Mineria </Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="7">
+    <Cell><Data ss:Type="String">Home2</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Over two decades experience in laboratories and different industries</Data>
+    </Cell>
+    <Cell ss:StyleID="S39"><Data ss:Type="String">Mas de dos decadas trabajando en laboratorios e industrias diferentes</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="8">
+    <Cell><Data ss:Type="String">Home3</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Approaching the decade working on software development</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Acercandose a la decada trabajando en desarrollo de software</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="9">
+    <Cell><Data ss:Type="String">Project</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Project</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Projecto</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="10">
+    <Cell><Data ss:Type="String">Company</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Company</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Empresa</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="11">
+    <Cell><Data ss:Type="String">Year</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Year</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Fecha</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="12">
+    <Cell><Data ss:Type="String">SomeExperience</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Some of the most relevant experience throughout the years:</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Algunas de las experiencias mas relevantes durante los años:</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="13">
+    <Cell><Data ss:Type="String">Name</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Name</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Nombre</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="14">
+    <Cell><Data ss:Type="String">Request</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Request</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Petición</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="15">
+    <Cell><Data ss:Type="String">Service</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Service</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Servicio</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="16" ss:StyleID="S40">
+    <Cell><Data ss:Type="String">Errors</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Errors</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Errores</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="17">
+    <Cell><Data ss:Type="String">IncorrectEmail</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Email is not correct</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">El Email no es correcto</Data>
+    </Cell>
+   </Row>
+   <Row ss:Index="18">
+    <Cell><Data ss:Type="String">IncorrectField</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Incorrect Field</Data>
+    </Cell>
+    <Cell><Data ss:Type="String">Campo incorrecto</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape" />
+    <Header x:Margin="0.31496062992125984" x:Data="&amp;R&amp;9&amp;K02+000&amp;D" />
+    <Footer x:Margin="0.31496062992125984" x:Data="&amp;L&amp;G&amp;C&amp;9&amp;K02+000&amp;F&amp;R&amp;9&amp;K02+000Page &amp;P of &amp;N" />
+    <PageMargins x:Top="0.7480314960629921" x:Bottom="0.7480314960629921" x:Left="0.2362204724409449" x:Right="0.2362204724409449" />
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo />
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>17</ActiveRow>
+     <ActiveCol>2</ActiveCol>
+     <RangeSelection>R18C3</RangeSelection>
+    </Pane>
+   </Panes>
+  </WorksheetOptions>
+ </Worksheet>
+ <Worksheet ss:Name="Evaluation Warning">
+  <ss:Names />
+  <ss:Table ss:DefaultRowHeight="12.75" ss:DefaultColumnWidth="48" ss:ExpandedRowCount="5" ss:ExpandedColumnCount="1">
+   <Row ss:Index="5" ss:Height="23.25">
+    <Cell ss:StyleID="S41"><Data ss:Type="String">Evaluation Only. Created with Aspose.Cells for .NET.Copyright 2003 - 2023 Aspose Pty Ltd.</Data>
+    </Cell>
+   </Row>
+  </ss:Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup />
+   <Print>
+    <PaperSizeIndex>9</PaperSizeIndex>
+   </Print>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>

@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model TrainingAlex.Models.HomeModel
+@{
+    var data = ViewBag.Message;
+}
+
+
+<div class="text-center">
+    <h1 class="display-4">@data.Alejandro</h1>
+    <br/>
+@*    <p><a>@data.Alejandro</a></p>*@
+    <h2><a>@data.Welcome</a></h2>
+    <br />
+    <br />
+    <div class="text-justify">
+        @foreach (var st in data.HomeList)
+        {
+            <p>@st</p>
+        }
+    </div>
+    <input type="button" onclick="location.href='It/Index';" value="IT Services" />
+    <input type="button" onclick="location.href='Mining/Index';" value="Mining Services" />
+</div>
+
+
+
+

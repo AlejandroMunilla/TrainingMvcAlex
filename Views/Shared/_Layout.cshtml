@@ -1,0 +1,76 @@
+﻿@using TrainingAlex.Helpers;
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <base href="YoursiteDomain"/>
+    <title>@ViewData["Title"] - TrainingAlex</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/TrainingAlex.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">TrainingAlex</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">@DictionaryHelper.Instance.CheckIfKeyExist("Home")</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="It" asp-action="Index">IT </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Mining" asp-action="Index">@DictionaryHelper.Instance.CheckIfKeyExist("Mining")</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Contact" asp-action="Index">@DictionaryHelper.Instance.CheckIfKeyExist("Contact")</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="text-left">
+                    <div class="row">
+                        <div>
+@*                            <asp:ImageButton ID="ImageButton1" ImageUrl="@Url.Content("~/Content/Flags/EnFlag.png")" AlternateText="No Image available" OnClick="Index()" runat="server" />*@
+                            
+                            <div class="column">
+                                <a class="lan-button" asp-area="" asp-controller="@ViewContext.RouteData.Values["controller"].ToString()" asp-action="ChangeLanguage" asp-route-language="en">
+                                    <img src="@Url.Content("~/Content/Flags/EnFlag.png")" alt="English" style="width:10%">
+
+                                </a>
+                            </div>
+                            <div class="column">
+                                <a class="lan-button" asp-area="" asp-controller="@ViewContext.RouteData.Values["controller"].ToString()" asp-action="ChangeLanguage" asp-route-language="es">
+                                    <img src="@Url.Content("~/Content/Flags/EsFlag.png")" alt="English" style="width:10%">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2023 - TrainingAlex - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

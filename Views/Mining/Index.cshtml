@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Mining Services";
+}
+@*@model IEnumerable<TrainingAlex.Models.MiningModel>*@
+@model TrainingAlex.Models.MiningViewModel
+
+<div class="text-center">
+    <h1 class="display-4">Alejandro Munilla</h1>
+    <br/>
+    <p><a>Mining Services</a></p>
+    <p><a> @Html.DisplayFor(model => model.SomeExperience)</a></p>
+    @*    <form action="https://google.com">
+        <input type="submit" value="Go to Google" />
+    </form>*@
+</div>
+<body>
+     <table class="table">
+         <tr>
+             <th>
+                @Html.DisplayFor(model => model.Project)
+             </th>
+            <th>
+                @Html.DisplayFor(model => model.Company)
+            </th>
+            <th>
+                @Html.DisplayFor(model => model.Year)
+            </th>
+            <th> </th>
+         </tr>
+         @foreach (var item in Model.ListMiningModel)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Project)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Company)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Year)
+                </td>
+            </tr>
+           
+        }
+    </table>
+</body>

@@ -1,0 +1,29 @@
+﻿@using TrainingAlex.Helpers;
+<div class="text-center">
+    <h1 class="display-4">Alejandro Munilla</h1>
+    <br/>
+    <p><a>@DictionaryHelper.Instance.CheckIfKeyExist("Welcome")</a></p>
+    @*    <form action="https://google.com">
+        <input type="submit" value="Go to Google" />
+    </form>*@
+
+</div>
+
+<div class="row">
+    <div class="column">
+        <button type="button">
+            <img src="@Url.Content("~/Content/AppDev.png")" alt="Application Developer" style="width:100%">
+        </button>        
+    </div>
+    <div class="column">
+        <img src="@Url.Content("~/Content/Interactive.png")" alt="Interactive Environments and Building Design" style="width:100%">
+    </div>
+</div>
+<div class="row">
+    <div class="column">
+        <img src="@Url.Content("~/Content/VR.png")" alt="VR and AR" style="width:100%">
+    </div>
+    <div class="column">
+        <img src="@Url.Content("~/Content/Entertainment.png")" alt="Entertainment and Videogames" style="width:100%">
+    </div>
+</div>

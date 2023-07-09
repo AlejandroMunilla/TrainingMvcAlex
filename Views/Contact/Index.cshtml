@@ -1,0 +1,22 @@
+﻿@using TrainingAlex.Helpers;
+@model TrainingAlex.Models.ContactModel;
+
+<body>
+    <div class="text-center">
+        <h1 class="display-4">Alejandro Munilla</h1>
+        <br />
+        <p><a>@DictionaryHelper.Instance.CheckIfKeyExist("Welcome")</a></p>
+    </div>
+    <form id="form1" runat="server" asp-action="Index">
+        <h3> TextBox Example </h3>
+        <p>@DictionaryHelper.Instance.CheckIfKeyExist("Name")</p>
+        <p>@Html.TextBoxFor(m => m.Name)   </p>
+
+        <p>Email</p>
+        <p>@Html.TextBoxFor(m => m.Email) </p>
+
+        <p>@DictionaryHelper.Instance.CheckIfKeyExist("Service")</p>
+
+        <input type="submit" value="Submit" class="="btn btn-default"/>
+    </form>
+</body>
